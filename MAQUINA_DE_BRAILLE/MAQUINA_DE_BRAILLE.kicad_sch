@@ -1,0 +1,140 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9a6fa5b9-6251-4c76-8504-ded4de8e2fcc")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 20.828 28.448)
+		(size 66.802 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "099b3b04-aaec-4710-a9d4-459b316d99df")
+		(property "Sheetname" "ESP32"
+			(at 20.828 27.7364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 20.828 81.1026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MAQUINA_DE_BRAILLE"
+				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.426 27.686)
+		(size 69.342 53.848)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "63b065f7-e776-41e8-916c-5c22e6daf15e")
+		(property "Sheetname" "POWER"
+			(at 106.426 26.9744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 106.426 82.1186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MAQUINA_DE_BRAILLE"
+				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.146 101.346)
+		(size 75.946 48.768)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "956bcba3-bf54-4bfa-9491-18fc33a8e148")
+		(property "Sheetname" "DRIVERS"
+			(at 25.146 100.6344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DRIVERS.kicad_sch"
+			(at 25.146 150.6986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MAQUINA_DE_BRAILLE"
+				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
