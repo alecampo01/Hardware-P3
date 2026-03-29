@@ -54,11 +54,11 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "clearance|129725000|73660000|ad3d094d-c00f-492c-a322-82e6d1d88d7b|d4e446ca-d922-445d-b1b1-ebb0891d6d12",
+          "clearance|129446000|70104800|ad3d094d-c00f-492c-a322-82e6d1d88d7b|d4e446ca-d922-445d-b1b1-ebb0891d6d12",
           ""
         ],
         [
-          "clearance|129725000|78840000|39d47495-ec6a-4dc6-b3e1-4061ef9f4536|d4e446ca-d922-445d-b1b1-ebb0891d6d12",
+          "clearance|129446000|75284800|39d47495-ec6a-4dc6-b3e1-4061ef9f4536|d4e446ca-d922-445d-b1b1-ebb0891d6d12",
           ""
         ],
         [
@@ -67,10 +67,6 @@
         ],
         [
           "clearance|129885000|95790000|9f7f011a-4c7c-4ed5-990b-15ee0419aca7|9f99ae73-88bd-496b-b7af-99bfb06df575",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|118470000|51920000|57c57b74-24b4-4a12-aa3d-3f765545ceb0|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -111,7 +107,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -121,7 +117,7 @@
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "ignore",
         "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
@@ -255,16 +251,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_mismatch|1346200|495300|98932d6a-68a2-4409-9865-ad3df8117f7d|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ],
-      [
-        "lib_symbol_mismatch|1490980|744220|98932d6a-68a2-4409-9865-ad3df8117f7d|00000000-0000-0000-0000-000000000000|||",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -457,7 +444,7 @@
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",

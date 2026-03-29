@@ -5,6 +5,258 @@
 	(uuid "8ce54098-4737-4fe2-95e6-a9cfd582d756")
 	(paper "A4")
 	(lib_symbols
+		(symbol "865080545012:865080545012"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "865080545012"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CAP_WCAP-ASLI_06p3X07p7_WRE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/865080545012.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "865080545012"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CAP_WCAP-ASLI_06p3X07p7_WRE CAP_WCAP-ASLI_06p3X07p7_WRE-M CAP_WCAP-ASLI_06p3X07p7_WRE-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "865080545012_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.4798 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.4798 -1.905) (xy 3.4798 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.1148 -1.905) (xy 4.1148 1.905)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "865080545012_1_2"
+				(polyline
+					(pts
+						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -4.1148) (xy 1.905 -4.1148)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.4798)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.1148) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Screw_Terminal_01x04"
 			(pin_names
 				(offset 1.016)
@@ -1216,291 +1468,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EEETC1C101XV:EEETC1C101XV"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at -2.54 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "EEETC1C101XV"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "EEETC1C101XV:CAP_EEETC1C101XV"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DigiKey_Part_Number" "P124846CT-ND"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEE-TC1C101XV/Panasonic+Electronic+Components/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "8.0mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "RADIAL-2 Panasonic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/EEE-TC1C101XV/Panasonic+Electronic+Components/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "10-Oct-19"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Panasonic Electronic Components"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "EEE-TC1C101XV"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "CAP ALUM 100UF 20% 16V SMD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Panasonic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "EEETC1C101XV_0_0"
-				(rectangle
-					(start -1.173 -1.532)
-					(end -0.284 -1.405)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -0.792 -1.913)
-					(end -0.665 -1.024)
-					(stroke
-						(width 0.1)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 2.54) (xy 0.508 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0) (xy 0.508 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.524 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.286 -2.54)
-					(mid 1.4851 0)
-					(end 2.286 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1650,6 +1617,12 @@
 		(uuid "49d3f54c-2bf5-4c19-be1b-e1abce5a0af8")
 	)
 	(junction
+		(at 46.736 98.552)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cf45b90-7d24-4709-a944-2b10448e17bf")
+	)
+	(junction
 		(at 107.188 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1684,12 +1657,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e7f71ab-d861-4626-abfd-6a14659830ab")
-	)
-	(junction
-		(at 121.158 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "924ba471-b0ba-4bf4-aa90-3aa1e0dae2ec")
 	)
 	(junction
 		(at 242.57 87.122)
@@ -1728,10 +1695,10 @@
 		(uuid "c55c7833-35a7-4ac4-932b-58a0f20b77dd")
 	)
 	(junction
-		(at 46.736 98.552)
+		(at 121.158 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da42f76b-e0a3-4b66-b76c-b7ea74f9b0a0")
+		(uuid "dae6c4d6-9681-493a-8c2a-829ab264858b")
 	)
 	(junction
 		(at 159.258 163.322)
@@ -1796,16 +1763,6 @@
 			(type default)
 		)
 		(uuid "05d5edf9-2dd6-4f6c-817d-2ac5a89988fa")
-	)
-	(wire
-		(pts
-			(xy 46.736 98.552) (xy 53.34 98.552)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0675c425-ef12-401a-9165-c5a5e884f9cb")
 	)
 	(wire
 		(pts
@@ -2009,6 +1966,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.158 22.86) (xy 127.762 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1cbb19-3b6f-41e7-9cf3-acb279dad5fa")
+	)
+	(wire
+		(pts
 			(xy 239.014 84.582) (xy 239.014 87.122)
 		)
 		(stroke
@@ -2156,6 +2123,16 @@
 			(type default)
 		)
 		(uuid "6fa1afb1-b7cf-455a-a17d-3f74eeddff9a")
+	)
+	(wire
+		(pts
+			(xy 46.736 98.552) (xy 53.34 98.552)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740af94d-30bc-4501-b9a3-5bb1f4b85eef")
 	)
 	(wire
 		(pts
@@ -2476,16 +2453,6 @@
 			(type default)
 		)
 		(uuid "cc88d33a-4f23-4691-8e16-f6aee012166d")
-	)
-	(wire
-		(pts
-			(xy 121.158 22.86) (xy 127.762 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de3af984-ee1a-4c91-8ece-c72d372f7b96")
 	)
 	(wire
 		(pts
@@ -3562,187 +3529,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EEETC1C101XV:EEETC1C101XV")
-		(at 46.736 101.092 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "049ca8ce-0a13-41a3-b30b-c7427b6ac948")
-		(property "Reference" "C16"
-			(at 50.8 100.5185 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF/16v"
-			(at 50.8 103.0585 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EEETC1C101XV:CAP_EEETC1C101XV"
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "P124846CT-ND"
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEE-TC1C101XV/Panasonic+Electronic+Components/view-part/?ref=snap"
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "8.0mm"
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "RADIAL-2 Panasonic"
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EEE-TC1C101XV/Panasonic+Electronic+Components/view-part/?ref=eda"
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "10-Oct-19"
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic Electronic Components"
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EEE-TC1C101XV"
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "CAP ALUM 100UF 20% 16V SMD"
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 46.736 101.092 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "483a8bdf-ae32-4201-a82c-0c91851b13a4")
-		)
-		(pin "2"
-			(uuid "19c60164-3039-421f-8492-dbc6f1099fd8")
-		)
-		(instances
-			(project ""
-				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/956bcba3-bf54-4bfa-9491-18fc33a8e148"
-					(reference "C16")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -5165,6 +4951,78 @@
 		)
 	)
 	(symbol
+		(lib_id "865080545012:865080545012")
+		(at 121.158 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c982374-7b44-415c-937a-6a1a7c54a606")
+		(property "Reference" "C20"
+			(at 124.206 25.3999 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF/35V"
+			(at 124.206 27.9399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "865080545012:CAP_WCAP-ASLI_06p3X07p7_WRE"
+			(at 121.158 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/865080545012.pdf"
+			(at 121.158 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.158 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd82ee7b-f9df-400c-af1b-2b63db951cfa")
+		)
+		(pin "1"
+			(uuid "4af4e022-b57d-42b0-a68f-15e2195b399d")
+		)
+		(instances
+			(project "MAQUINA_DE_BRAILLE"
+				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/956bcba3-bf54-4bfa-9491-18fc33a8e148"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 52.832 127.508 270)
 		(unit 1)
@@ -5383,6 +5241,78 @@
 		)
 	)
 	(symbol
+		(lib_id "865080545012:865080545012")
+		(at 46.736 98.552 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9156fe6c-5578-496a-a2c6-f8f987870f3f")
+		(property "Reference" "C16"
+			(at 49.53 101.0919 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF/35V"
+			(at 49.53 103.6319 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "865080545012:CAP_WCAP-ASLI_06p3X07p7_WRE"
+			(at 46.736 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/865080545012.pdf"
+			(at 46.736 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.736 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aacd2268-4401-4efd-9791-8f9a85ca8971")
+		)
+		(pin "1"
+			(uuid "95ca7170-441a-4ba1-bb09-80bae4e0e45b")
+		)
+		(instances
+			(project ""
+				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/956bcba3-bf54-4bfa-9491-18fc33a8e148"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.138 163.322 0)
 		(unit 1)
@@ -5577,187 +5507,6 @@
 			(project "MAQUINA_DE_BRAILLE"
 				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/956bcba3-bf54-4bfa-9491-18fc33a8e148"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EEETC1C101XV:EEETC1C101XV")
-		(at 121.158 25.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2fabbbe-14f7-44bf-a22a-3b7a6918c026")
-		(property "Reference" "C20"
-			(at 124.46 24.8265 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF/16v"
-			(at 124.46 27.3665 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EEETC1C101XV:CAP_EEETC1C101XV"
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey_Part_Number" "P124846CT-ND"
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EEE-TC1C101XV/Panasonic+Electronic+Components/view-part/?ref=snap"
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "8.0mm"
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "RADIAL-2 Panasonic"
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EEE-TC1C101XV/Panasonic+Electronic+Components/view-part/?ref=eda"
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "10-Oct-19"
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic Electronic Components"
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EEE-TC1C101XV"
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "CAP ALUM 100UF 20% 16V SMD"
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 121.158 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1a8631a-55dd-4f00-bbb1-e85c897f4ad9")
-		)
-		(pin "2"
-			(uuid "fdd30604-17da-43b2-8490-a7da6b822cf8")
-		)
-		(instances
-			(project "MAQUINA_DE_BRAILLE"
-				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/956bcba3-bf54-4bfa-9491-18fc33a8e148"
-					(reference "C20")
 					(unit 1)
 				)
 			)
