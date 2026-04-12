@@ -5,7 +5,7 @@
 	(uuid "9585dfe4-ace8-4fe2-86fa-be8482b89aa6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "293D106X9010A2TE3:293D106X9010A2TE3"
+		(symbol "293D106X9010B2TE3:293D106X9010B2TE3"
 			(pin_names
 				(offset 0.254)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "293D106X9010A2TE3"
+			(property "Value" "293D106X9010B2TE3"
 				(at 3.81 -3.81 0)
 				(effects
 					(font
@@ -28,7 +28,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CAP_293D-A_VSS"
+			(property "Footprint" "CAP_293D_B_VIS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "293D106X9010A2TE3"
+			(property "ki_keywords" "293D106X9010B2TE3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CAP_293D-A_VSS"
+			(property "ki_fp_filters" "CAP_293D_B_VIS CAP_293D_B_VIS-M CAP_293D_B_VIS-L"
 				(at 0 0 0)
 				(effects
 					(font
@@ -83,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "293D106X9010A2TE3_1_1"
+			(symbol "293D106X9010B2TE3_1_1"
 				(polyline
 					(pts
 						(xy 2.54 0) (xy 3.4798 0)
@@ -169,7 +169,7 @@
 					)
 				)
 			)
-			(symbol "293D106X9010A2TE3_1_2"
+			(symbol "293D106X9010B2TE3_1_2"
 				(polyline
 					(pts
 						(xy -1.905 -3.4798) (xy 1.905 -3.4798)
@@ -3938,6 +3938,150 @@
 		)
 	)
 	(symbol
+		(lib_id "293D106X9010B2TE3:293D106X9010B2TE3")
+		(at 137.922 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2db72a1a-318a-47c3-ad72-7f2233de8ac5")
+		(property "Reference" "C5"
+			(at 140.97 41.9099 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF/10v"
+			(at 140.97 44.4499 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "293D106X9010B2TE3:CAP_293D_B_VIS"
+			(at 137.922 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?40002"
+			(at 137.922 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.922 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eb9f668-9ef2-4647-aa83-c77c64ad5d3e")
+		)
+		(pin "2"
+			(uuid "d1a4e895-e66a-4c67-b8f8-086640f60318")
+		)
+		(instances
+			(project "MAQUINA_DE_BRAILLE"
+				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/63b065f7-e776-41e8-916c-5c22e6daf15e"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "293D106X9010B2TE3:293D106X9010B2TE3")
+		(at 112.776 56.896 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34fe5ce4-4598-4080-81e9-c6b5e5773ea8")
+		(property "Reference" "C6"
+			(at 115.824 59.4359 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF/10v"
+			(at 115.824 61.9759 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CAP_293D_B_VIS"
+			(at 112.776 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?40002"
+			(at 112.776 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 112.776 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6368fa4-ea35-411c-b51e-dd483acf2960")
+		)
+		(pin "2"
+			(uuid "11f8aa3d-e11d-43db-9d4c-24e0421c17d3")
+		)
+		(instances
+			(project ""
+				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/63b065f7-e776-41e8-916c-5c22e6daf15e"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 117.094 120.904 0)
 		(unit 1)
@@ -4922,77 +5066,6 @@
 		)
 	)
 	(symbol
-		(lib_id "293D106X9010A2TE3:293D106X9010A2TE3")
-		(at 137.922 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "912feb58-d9ee-47fc-aaf0-84c739b371e6")
-		(property "Reference" "C5"
-			(at 146.05 42.418 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10uF/10v"
-			(at 141.224 44.4499 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "293D106X9010A2TE3:CAP_293D-A_VSS"
-			(at 137.922 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?40002"
-			(at 137.922 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 137.922 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da0f677f-30ae-46bc-8482-362385ad2059")
-		)
-		(pin "2"
-			(uuid "c2b99b2d-1c6b-4b26-b2c1-b810b03a2abc")
-		)
-		(instances
-			(project "MAQUINA_DE_BRAILLE"
-				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/63b065f7-e776-41e8-916c-5c22e6daf15e"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "IHLP1616BZER4R7M11:IHLP1616BZER4R7M11")
 		(at 132.588 142.748 0)
 		(unit 1)
@@ -5634,78 +5707,6 @@
 			(project ""
 				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/63b065f7-e776-41e8-916c-5c22e6daf15e"
 					(reference "LDO1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "293D106X9010A2TE3:293D106X9010A2TE3")
-		(at 112.776 56.896 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a01dd465-af81-4c53-8fd1-0d58911d1429")
-		(property "Reference" "C6"
-			(at 116.586 59.4359 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF/10v"
-			(at 116.586 61.9759 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "293D106X9010A2TE3:CAP_293D-A_VSS"
-			(at 112.776 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?40002"
-			(at 112.776 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 112.776 56.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b37484af-5344-4c59-8ded-60d4e0dddb17")
-		)
-		(pin "2"
-			(uuid "78b4ad81-b1d2-4b19-82fc-43a0fd93f907")
-		)
-		(instances
-			(project ""
-				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/63b065f7-e776-41e8-916c-5c22e6daf15e"
-					(reference "C6")
 					(unit 1)
 				)
 			)
