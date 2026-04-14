@@ -1665,6 +1665,12 @@
 		(uuid "939f5b24-64e9-405b-86ab-6425fc130d5f")
 	)
 	(junction
+		(at 21.59 98.552)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97cfbd5b-01b3-458c-9a71-39f3ce98d4e1")
+	)
+	(junction
 		(at 242.57 79.502)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1675,6 +1681,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac48303a-8c6c-4574-9b64-8fcebf945246")
+	)
+	(junction
+		(at 94.742 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac928335-9b60-4731-b833-a1ccbf8c4779")
 	)
 	(junction
 		(at 239.014 87.122)
@@ -1763,6 +1775,16 @@
 			(type default)
 		)
 		(uuid "05d5edf9-2dd6-4f6c-817d-2ac5a89988fa")
+	)
+	(wire
+		(pts
+			(xy 94.742 22.86) (xy 107.188 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078b69ec-1f95-45f8-b789-889016d5a7f8")
 	)
 	(wire
 		(pts
@@ -2146,7 +2168,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 98.552) (xy 32.766 98.552)
+			(xy 20.32 98.552) (xy 21.59 98.552)
 		)
 		(stroke
 			(width 0)
@@ -2173,6 +2195,16 @@
 			(type default)
 		)
 		(uuid "7cd0d939-f1be-4ec2-9a5f-0a75d7efe8e2")
+	)
+	(wire
+		(pts
+			(xy 21.59 98.552) (xy 32.766 98.552)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb3de3f-0c80-4943-94ad-3446ccc5aedc")
 	)
 	(wire
 		(pts
@@ -2496,7 +2528,7 @@
 	)
 	(wire
 		(pts
-			(xy 103.632 22.86) (xy 107.188 22.86)
+			(xy 90.424 22.86) (xy 94.742 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2742,7 +2774,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 29.21 98.552 180)
+		(at 20.32 98.552 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2752,7 +2784,7 @@
 		)
 		(uuid "341226c2-86d7-46aa-9c4d-a45685050242")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.5962 98.552 0)
+			(at 13.7062 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +3060,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 103.632 22.86 180)
+		(at 90.424 22.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3038,7 +3070,7 @@
 		)
 		(uuid "731b07fd-6dea-4ac2-99db-50337f504ad5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.0182 22.86 0)
+			(at 83.8102 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3533,6 +3565,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 94.742 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0394e907-7ef5-4c1b-a410-52f4cb900360")
+		(property "Reference" "C25"
+			(at 98.552 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uf"
+			(at 98.552 27.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 95.7072 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 94.742 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 94.742 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e16dec5-d341-4b8e-9043-4b368f621986")
+		)
+		(pin "2"
+			(uuid "de9e6106-cdbf-43f2-864e-58e8ca229b19")
+		)
+		(instances
+			(project "MAQUINA_DE_BRAILLE"
+				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/956bcba3-bf54-4bfa-9491-18fc33a8e148"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 239.014 76.962 90)
 		(unit 1)
@@ -3888,7 +3989,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1"
+		(property "Value" "0.2"
 			(at 148.336 62.23 90)
 			(effects
 				(font
@@ -5379,6 +5480,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 21.59 102.362 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96a6e0f5-bbfb-45ec-8aca-c48c2742302b")
+		(property "Reference" "C26"
+			(at 24.892 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uf"
+			(at 24.638 103.378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 22.5552 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 21.59 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fae5d57-8552-411e-bd8b-164a95ad2b48")
+		)
+		(pin "2"
+			(uuid "647fc943-8fa1-4e37-9323-1395477da01c")
+		)
+		(instances
+			(project "MAQUINA_DE_BRAILLE"
+				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/956bcba3-bf54-4bfa-9491-18fc33a8e148"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 155.448 94.234 0)
 		(unit 1)
@@ -5446,6 +5616,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 94.742 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0a37aaf-4d7c-449a-ba2b-0e140b051042")
+		(property "Reference" "#PWR019"
+			(at 94.742 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 94.742 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.742 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 94.742 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 94.742 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f353ba9-9b5d-4b94-b9c7-84cfb406d967")
+		)
+		(instances
+			(project "MAQUINA_DE_BRAILLE"
+				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/956bcba3-bf54-4bfa-9491-18fc33a8e148"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 72.136 165.608 0)
 		(unit 1)
@@ -5507,6 +5743,72 @@
 			(project "MAQUINA_DE_BRAILLE"
 				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/956bcba3-bf54-4bfa-9491-18fc33a8e148"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 106.172 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5b216d8-7d15-4b8f-9c4d-32fec98cd89e")
+		(property "Reference" "#PWR022"
+			(at 21.59 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48807e7e-4a39-4010-8edd-abb84b9a0c3e")
+		)
+		(instances
+			(project "MAQUINA_DE_BRAILLE"
+				(path "/9a6fa5b9-6251-4c76-8504-ded4de8e2fcc/956bcba3-bf54-4bfa-9491-18fc33a8e148"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6067,7 +6369,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1"
+		(property "Value" "0.2"
 			(at 148.59 76.708 90)
 			(effects
 				(font

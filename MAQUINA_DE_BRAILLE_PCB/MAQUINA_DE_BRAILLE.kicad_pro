@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.889,
-          "width": 0.889
+          "height": 1.27,
+          "width": 0.5588
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,16 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "text_thickness|146505000|55824000|d97e3335-3893-4c66-86e6-01b2053e7b32|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "text_thickness|154345000|55954000|6da90cae-e5fe-4073-9180-bd23dae8376b|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
