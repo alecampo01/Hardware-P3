@@ -52,7 +52,20 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|158481700|44310000|1ea9e150-771d-4a6f-91f7-26ac034f05e9|09fab10d-0364-415c-aef1-411d37faf4be",
+          ""
+        ],
+        [
+          "silk_edge_clearance|176744300|44310000|1ea9e150-771d-4a6f-91f7-26ac034f05e9|911cfbb3-47db-484b-bacf-03d22545c393",
+          ""
+        ],
+        [
+          "solder_mask_bridge|153276300|92428023|7d02fde8-7216-4803-8f24-cac0000fa1d8|fe5eeb0c-1cfb-4acc-86cb-873d895863c3",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -81,7 +94,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -94,11 +107,11 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "ignore",
-        "silk_edge_clearance": "ignore",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "ignore",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
@@ -112,7 +125,7 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zones_intersect": "error"
       },
       "rules": {
@@ -596,7 +609,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "MAQUINA_DE_BRAILLE_manufacture/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
